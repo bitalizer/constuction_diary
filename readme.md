@@ -1,6 +1,6 @@
 # Construction Diary
 
-Welcome to the Construction Diary Project repository! This project was created as part of my graduation requirements. It served as a comprehensive construction diary management system, allowing users to document and track construction activities, progress, and important events
+Welcome to the Construction Diary Project repository! This project was created in 2018 as part of my graduation requirements. It served as a comprehensive construction diary management system, allowing users to document and track construction activities, progress, and important events.
 
 # Setup
 
