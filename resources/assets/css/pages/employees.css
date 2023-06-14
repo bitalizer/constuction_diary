@@ -1,0 +1,30 @@
+.zoom img {
+    transition: all 1s ease;
+}
+.zoom img:hover {
+    transform:scale(1.45,1.45);
+}
+.thumb_zoom {
+    display:inline-block;
+    overflow:hidden;
+    padding: 0 !important;
+    margin:1% 1.5%;
+}
+.admin_img_width{
+    width: 250px;
+    height: 150px;
+}
+
+.tab-content .thumb_zoom {
+    margin:10px 10px 0 0;
+}
+
+.view_user_nav_padding{
+    border-bottom:4px solid rgba(0,0,0,0.125)
+}
+.view_user_nav_padding .nav-item{
+    margin-bottom: -7px;
+}
+.admin_img_width,.btn_file_position {
+    margin-left: -5px;
+}

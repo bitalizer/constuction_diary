@@ -1,0 +1,23 @@
+html {
+    font: normal 12px Arial, Helvetica, Sans-serif;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    border: 1px solid #eaeaea;
+}
+
+table tr td {
+    text-align: left;
+}
+
+table th {
+    text-transform: uppercase;
+}

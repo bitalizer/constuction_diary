@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+
+body {
+    display:table-cell;
+    vertical-align:middle;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: auto;
+    webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #3c8dbc;
+}
+
+a:hover, a:active, a:focus {
+    color: #72afd2;
+    outline: none;
+    text-decoration: none;
+}
+
+.login-page {
+    background: #f5f5f5;
+
+}
+
+.login-box, .register-box {
+    display:table;/* shrinks to fit content */
+    margin:auto;
+    width: 320px;
+}
+
+@media (max-width: 768px) {
+    .login-box {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+.login-box-body {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 20px;
+}
+
+.login-box-body
+.form-control-feedback, .register-box-body .form-control-feedback {
+    color: #777;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -24px;
+}
+
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+.btn-login, .btn-login:hover {
+    background-color: #009688;
+    border-color: #009688;
+    color: #fff;
+    padding: 8px;
+}
+
+.help-block, .help-inline {
+    color: #999;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.content-group {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.display-block, label.display-block {
+    display: block;
+    margin-top: 3px;
+}
+
+.icon-object {
+    text-align: center;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 17px 20px;
+}
+
+.icon-object, .status-mark {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.text-slate-300, .text-slate-300:focus, .text-slate-300:hover {
+    color: #009688 !important;
+}
+
